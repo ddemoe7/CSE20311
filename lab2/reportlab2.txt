@@ -1,0 +1,16 @@
+My program from the ASCII Art Graph is based off of the "y" coordinate of each
+x, where the y = the amount of hashes.
+The user is not able to input anything however, because the assignment did not
+say to include these features.
+
+The program first initializes and declares its variables as a float type.
+Then for the ymax and ymin variables, I used values from the library
+"climits". The ymax has the lowest number possible and vice versa, b/c the
+program eventually compares each value and the greater value is taken for
+the ymax, and vice versa for the ymin.
+
+For the nested-for loop, it increments and evaluates y, which sets the amount
+of printed #'s. It also will check whether to set a new ymax or ymin.
+
+I verified that the output was correct by comparing the ymax, ymin, xmax, and
+xmin values to the values in the table before. They matched. 
