@@ -1,0 +1,20 @@
+= vs ==, Break/Return,
+
+1. = vs ==
+= is the assignment operator while == is an equals operator
+this is also means that these provide different cases for possible BOOL values
+(as shown in Sep09BoolVals.cpp code)
+
+
+2. Break/Return
+for break, it breaks out of the current control structure, and
+CONTINUE the program.
+
+return means to check if each function went correctly
+return 0, means that it all went okay
+
+
+3. ASCII
+Integer values and characters are intertwined with type 'char'
+Also, it shows typecasting
+(as shown in Sep09ASCII.cpp)
