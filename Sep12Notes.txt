@@ -1,0 +1,17 @@
+Functions, Prototype/Signature, Linking other code
+
+1. Functions
+Ultimate goal: To get/produce a result
+Calling of a function IS a value (in most cases)
+Functions returns a value assigned to a variable,
+NOT like y = f(x). f(x) does whatever and returns a value to be assigned to y
+
+2. Prototype/Signature
+First line of func def
+Variables declared inside function are LOCAL
+Arguments are passed by values
+Put function before main func (For this class)
+No need to put variables in prototype
+
+3. Modify copy
+Give location of document
