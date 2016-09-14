@@ -1,4 +1,6 @@
 //Paul Kwak
+/*Asks the user to enter two integer values, finds, and displays, the gcd
+between them. Assumed that the user will only enter integer values*/
 #include <iostream>
 using namespace std;
 
@@ -7,15 +9,29 @@ int getgcd(int, int);
 
 int main() {
   //declaring and assigning variables
-  int a, b, c;
+  //have four to account for negative values
+  int a, b, c, d;
   cout << "Enter first value: " << endl;
   cin >> a;
+  c = a;
   cout << "Enter second value: " << endl;
   cin >> b;
+  d = b;
+
+  //condition for when inputs are negative or zero
+  if (a < 0){
+    a = -1*a;
+  }
+  if (b < 0){
+    b = -1*b;
+  }
+  //if (a = 0){
+  //  a =
+  //}
 
   //gcd calculated
   int gcd = getgcd(a,b);
-  cout << "The gcd of " << a << " and " << b << " is " << gcd << "." << endl;
+  cout << "The gcd of " << c << " and " << d << " is " << gcd << "." << endl;
 
 }
 
