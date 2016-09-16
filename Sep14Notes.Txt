@@ -8,3 +8,9 @@ Also possible to have void arguments, but still take data
 2) Sentinel Value
 Data that you know, would never be part of the data
 Add data at the end of the program that terminates the program
+
+for ex: if you know that 999 will never be in the condition
+for (1 to 4 or whatever)
+
+if 999 <-- the sentinel value
+end
