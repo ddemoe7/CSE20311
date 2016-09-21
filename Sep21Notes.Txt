@@ -1,0 +1,46 @@
+Trick Problem (Pointers), Return vs Reference
+
+1) int n = 5;
+...cout << n << endl; --> 5
+change(n);
+cout << n << endl; --> 5
+...
+
+void change(int n)
+{
+  n=8;
+}
+
+///This is will return 5 both times, b/c the function is (1) void, (2) n in func
+is a local variable, and (3), the n passed in main is 5, (BY VALUE)
+(Now if this were a static void....)
+
+Now, for n --> 5, then n --> 8 (BY REFERENCE C++ Method)
+
+void change(int&a) *& means address of //same address as main's "n", b/c n
+{                                      //was passed thru the func in main
+  a = 8;
+}
+
+//The difference between different output type, and void by reference
+You could change the function to return int.
+But what if you want to pass multiple values, and modify them?
+(REMEMBER funcs can't output more than 1 value)
+Pointers will solve that issue.
+
+2) How to show whether func is return based, or reference based
+Return ex: void change(int)
+Reference ex: void change(int&)
+
+3) Array
+Always reference (the name of the array is the address)
+Passing by array automatically means passing by reference
+Thus, when array is passed thru func, the array will be modified
+(Passing by value would be directly inputting each element in array...which is dumb)
+
+
+
+
+#) The point of object-oriented programming:
+Main doesn't really need to know what's going on.
+What's going on is the functions below
