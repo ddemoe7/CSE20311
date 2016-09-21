@@ -1,0 +1,14 @@
+/Users/pkwak/Documents/gitrepos/CSE20311/lab4/primes.cpp:10:15: error: variable-sized object may not be initialized
+  bool primes[max] = {false};
+              ^~~
+/Users/pkwak/Documents/gitrepos/CSE20311/lab4/primes.cpp:14:19: error: redefinition of 'i'
+  for (int i = 0, i < max, i++)
+                  ^
+/Users/pkwak/Documents/gitrepos/CSE20311/lab4/primes.cpp:14:12: note: previous definition is here
+  for (int i = 0, i < max, i++)
+           ^
+/Users/pkwak/Documents/gitrepos/CSE20311/lab4/primes.cpp:14:21: error: expected ';' in 'for' statement specifier
+  for (int i = 0, i < max, i++)
+                    ^
+/Users/pkwak/Documents/gitrepos/CSE20311/lab4/primes.cpp:14:21: error: expected expression
+4 errors generated.
