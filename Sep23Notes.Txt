@@ -1,0 +1,50 @@
+Sorting && Searching,
+
+1) Sorting and Searching
+ex: Bubblesort
+From an array, you check every pair of numbers: 1 and 2, then 2 and 3, and so on.
+If the number after is greater than the number before, then swap.
+Nested for loops
+for
+{
+  this one to check for non swap condition to stop
+  repeats if not non swap
+  for
+  {
+    checks and swaps
+  }
+}
+
+2)
+
+3) Recursion
+//NORMAL FUNC
+main
+  func(n)
+
+func(int n)
+{
+  blah
+}
+
+//RECURSIVE CALL
+.
+func(n)
+.
+
+func(int n)
+{
+  blah
+  FUNC(N)
+  blah
+}
+//the func(n) inside the func, will go back to first blah
+
+Thus a recursive function, somehow, needs to stop or skip
+
+4) Recursive Factorial Ex:
+n! = n * (n-1) * (n-2) * .... * 2 * 1
+n! = n * (n-1)!
+[1! = 1
+[0! = 1
+1! and 0! are base cases (case where solution can be stated non-recursively)
