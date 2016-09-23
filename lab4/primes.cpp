@@ -1,3 +1,9 @@
+/* Paul Kwak
+
+Using the sieve of Eratosthenes algorithm for finding prime numbers,
+It should show the prime numbers from 1 to 1000.
+
+*/
 #include <iostream>
 #include <iomanip>
 #include <cmath>
@@ -8,6 +14,7 @@ int main ()
   const int max = 1000;
   int i,j;
   bool primes[max];
+  int counter = 0;
 
   //Creating Boolean array
   for (i = 0; i < max; i++)
@@ -28,14 +35,20 @@ int main ()
   }
 
   //Displaying values that were considered false
-  for (i = 0; i < max-1; i++)
+  for (i = 2; i < max-1; i++)
   {
     if (primes[i] == true)
     {
-      cout << i << " ";
-    }
+      cout << setw(4) << i << " ";
+      counter = counter + 1;
 
+      if (counter%10 == 0)
+      {
+        cout << endl;
+      }
+    }
   }
+  cout << endl;
 }
 /*Input: an integer n > 1
 

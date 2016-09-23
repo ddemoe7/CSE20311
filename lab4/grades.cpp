@@ -1,3 +1,11 @@
+/* Paul Kwak
+
+Reads in a data file, and then computes the average and the standard
+deviation.
+Assume:
+Max is 50 grades, Works for any data file, Unix input redirection to read in data
+
+*/
 #include <iostream>
 #include <cmath>
 using namespace std;
