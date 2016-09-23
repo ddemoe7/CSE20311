@@ -9,9 +9,6 @@ Arrays: Win/loss record, WITH MORE functinos
 #include <cmath>
 using namespace std;
 
-//prototyping functinos
-
-
 //global arrays
 int wins[] =
  { 6, 8, 6, 8, 5, 5, 6, 6, 8, 7, 4,
@@ -41,21 +38,25 @@ int losses[] =
 
 int main()
 {
-  int q, n;
+  //declaring variables
+  int q = 0 ;
+  int n, l, w, y, z;
 
-  while (q != 5) {
+  //this is the decision menu
+  while (q != 6) {
     cout << "What would you like to do?" << endl;
     cout << right << setw(19) << "1 for the record of a given year" << endl;
     cout << right << setw(22) << "2 for the years w/'n' losses" << endl;
     cout << right << setw(25) << "3 for the years w/'n' wins" << endl;
-    cout << right << setw(19) << "4 for something else" << endl;
-    cout << right << setw(8) << "5 to exit" << endl;
+    cout << right << setw(19) << "4 for a 2016 prediction" << endl;
+    cout << right << setw(19) << "5 for a matching record from a win/loss input" << endl;
+    cout << right << setw(8) << "6 to exit" << endl;
 
     cout << "Enter your choice: " << endl;
     cin >> q;
 
     //condition if they choose 5
-    if (q==5)
+    if (q==6)
     {
       cout << "Thank you!" << endl;
       return 1;
@@ -72,24 +73,64 @@ int main()
       else
       {
       cout << "Wins: " << wins[n-1900] << " Losses: " << losses[n-1900] << endl;
+      cout << endl;
       }
     }
-/*
+
     if (q==2)
     {
-
+      cout << "Enter minimum number of losses: " << endl;
+      cin >> l;
+      cout << "Years with at least " << l << " losses: ";
+      for (int i = 1900; i < 2016; i++)
+      {
+        if (losses[i-1900] == l)
+        {
+          cout << i << " ";
+        }
+      }
+      cout << endl;
     }
 
     if (q==3)
     {
-
+      cout << "Enter minimum number of wins: " << endl;
+      cin >> w;
+      cout << "Years with at least " << w << " wins: ";
+      for (int j = 1900; j < 2016; j++)
+      {
+        if (wins[j-1900] == w)
+        {
+          cout << j << " ";
+        }
+      }
+      cout << endl;
     }
 
     if (q==4)
     {
-
+      cout << "Well with how this season is going..." << endl;
+      cout << "Let me make a prediction after the Duke game on 9/24/16" << endl;
+      cout << endl;
     }
-*/
+
+    if (q==5)
+    {
+      cout << "Enter wins: " << endl;
+      cin >> y;
+      cout << "Enter losses: " << endl;
+      cin >> z;
+      cout << "Years with " << y << " wins " << "and " << z << " losses " <<
+      "include: ";
+      for (int k = 1900; k < 2016; k++)
+      {
+        if (wins[k-1900] == y && losses[k-1900] == z)
+        {
+          cout << k << endl;
+        }
+      }
+      cout << endl;
+    }
   }
 
 }
