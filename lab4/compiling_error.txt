@@ -1,0 +1,14 @@
+/Users/pkwak/Documents/gitrepos/CSE20311/lab4/circularprimes.cpp:23:11: error: use of undeclared identifier 'number'; did you mean 'isnumber'?
+      if (number % i == 0)
+          ^~~~~~
+          isnumber
+/usr/include/ctype.h:323:1: note: 'isnumber' declared here
+isnumber(int _c)
+^
+/Users/pkwak/Documents/gitrepos/CSE20311/lab4/circularprimes.cpp:23:18: error: invalid operands to binary expression ('int (*)(int)' and 'int')
+      if (number % i == 0)
+          ~~~~~~ ^ ~
+/Users/pkwak/Documents/gitrepos/CSE20311/lab4/circularprimes.cpp:32:13: error: use of undeclared identifier 'number'
+   if (i == number)
+            ^
+3 errors generated.
