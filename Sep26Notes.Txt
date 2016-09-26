@@ -1,0 +1,13 @@
+Make
+
+1) Make (Command in Unix)
+Used for compiling programs
+Requires a file called "makefile"
+  contains a set of rules and targets
+
+Typing
+make -f : file containing rules
+-->tab Makefile
+
+target: dependencies
+then it runs the dependencies first then the target
