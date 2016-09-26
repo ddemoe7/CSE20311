@@ -11,3 +11,14 @@ make -f : file containing rules
 
 target: dependencies
 then it runs the dependencies first then the target
+
+2) Compiling
+g++ blah.cpp -o blah (compiling)
+  (a) cpp -> object file (.o)
+  (b) .o -> executable (linking = combine with all libraries)
+
+(a) create .o file
+  g++ -c blah.cpp --> blah.o
+  *Pure compile
+(b)
+  g++ blah. o --> a.out
