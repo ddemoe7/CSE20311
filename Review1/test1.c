@@ -1,6 +1,7 @@
 //* NOT ACTUALLY A C FILE, DO NOT COMPILE *
 //1) Indentation
 #include <stdio.h>
+
 int main()
 {
   int a, b, n = 4, s = 0;

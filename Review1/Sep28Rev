@@ -1,0 +1,6 @@
+Break/Continue;
+for (blah)
+  if (blah) break;
+//break then exits the loop and moves to the next
+//continue, then exits the loop and moves back to the beginning of loop
+//so loops (esp switch) will keep going on, until they hit a break or continue
