@@ -1,0 +1,59 @@
+/Users/pkwak/Documents/gitrepos/CSE20311/ec/check.cpp:29:6: error: expected a field designator, such as '.field = 4'
+   {., ., k, ., ., ., ., .} ,
+     ^
+/Users/pkwak/Documents/gitrepos/CSE20311/ec/check.cpp:29:9: error: expected a field designator, such as '.field = 4'
+   {., ., k, ., ., ., ., .} ,
+        ^
+/Users/pkwak/Documents/gitrepos/CSE20311/ec/check.cpp:29:11: error: use of undeclared identifier 'k'
+   {., ., k, ., ., ., ., .} ,
+          ^
+/Users/pkwak/Documents/gitrepos/CSE20311/ec/check.cpp:29:15: error: expected a field designator, such as '.field = 4'
+   {., ., k, ., ., ., ., .} ,
+              ^
+/Users/pkwak/Documents/gitrepos/CSE20311/ec/check.cpp:29:18: error: expected a field designator, such as '.field = 4'
+   {., ., k, ., ., ., ., .} ,
+                 ^
+/Users/pkwak/Documents/gitrepos/CSE20311/ec/check.cpp:29:21: error: expected a field designator, such as '.field = 4'
+   {., ., k, ., ., ., ., .} ,
+                    ^
+/Users/pkwak/Documents/gitrepos/CSE20311/ec/check.cpp:29:24: error: expected a field designator, such as '.field = 4'
+   {., ., k, ., ., ., ., .} ,
+                       ^
+/Users/pkwak/Documents/gitrepos/CSE20311/ec/check.cpp:29:27: error: expected a field designator, such as '.field = 4'
+   {., ., k, ., ., ., ., .} ,
+                          ^
+/Users/pkwak/Documents/gitrepos/CSE20311/ec/check.cpp:30:5: error: use of undeclared identifier 'p'
+   {p, p, p, ., p, p, p, p} ,
+    ^
+/Users/pkwak/Documents/gitrepos/CSE20311/ec/check.cpp:30:8: error: use of undeclared identifier 'p'
+   {p, p, p, ., p, p, p, p} ,
+       ^
+/Users/pkwak/Documents/gitrepos/CSE20311/ec/check.cpp:30:11: error: use of undeclared identifier 'p'
+   {p, p, p, ., p, p, p, p} ,
+          ^
+/Users/pkwak/Documents/gitrepos/CSE20311/ec/check.cpp:30:15: error: expected a field designator, such as '.field = 4'
+   {p, p, p, ., p, p, p, p} ,
+              ^
+/Users/pkwak/Documents/gitrepos/CSE20311/ec/check.cpp:30:17: error: use of undeclared identifier 'p'
+   {p, p, p, ., p, p, p, p} ,
+                ^
+/Users/pkwak/Documents/gitrepos/CSE20311/ec/check.cpp:30:20: error: use of undeclared identifier 'p'
+   {p, p, p, ., p, p, p, p} ,
+                   ^
+/Users/pkwak/Documents/gitrepos/CSE20311/ec/check.cpp:30:23: error: use of undeclared identifier 'p'
+   {p, p, p, ., p, p, p, p} ,
+                      ^
+/Users/pkwak/Documents/gitrepos/CSE20311/ec/check.cpp:30:26: error: use of undeclared identifier 'p'
+   {p, p, p, ., p, p, p, p} ,
+                         ^
+/Users/pkwak/Documents/gitrepos/CSE20311/ec/check.cpp:31:6: error: expected a field designator, such as '.field = 4'
+   {., ., ., ., ., ., ., .} ,
+     ^
+/Users/pkwak/Documents/gitrepos/CSE20311/ec/check.cpp:31:9: error: expected a field designator, such as '.field = 4'
+   {., ., ., ., ., ., ., .} ,
+        ^
+/Users/pkwak/Documents/gitrepos/CSE20311/ec/check.cpp:31:12: error: expected a field designator, such as '.field = 4'
+   {., ., ., ., ., ., ., .} ,
+           ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
